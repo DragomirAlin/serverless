@@ -71,7 +71,7 @@ public class NotificationService {
         SendEmailRequest emailRequest = SendEmailRequest.builder()
                 .destination(destination)
                 .message(msg)
-                .source("dragomirdanielalin@gmail.com")
+                .source("<your-source-email>")
                 .build();
 
         try {
